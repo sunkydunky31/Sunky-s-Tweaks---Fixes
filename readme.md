@@ -1,0 +1,26 @@
+# Sunky's Tweaks and Fixes
+
+## GENERAL INFORMATION
+GUIDE: [Tweaks](#tweaks), [Fixes](#fixes), [New](#new), [Requirements](#requirements)
+
+This is a mod for Sonic 1 Forever, fixing and adding some things to the game
+THAT MOD WAS MADE IN 2021, BEFORE [S1F TWEAKS!](https://gamebanana.com/wips/83824), I DON'T HAVE COPIED [TURNIP STUDIOS](https://gamebanana.com/members/2625345)
+
+## TWEAKS // FIXES
+* Added the unused sprites of Save Select
+* The Brazialian translation are now fixed
+
+## TODOS
+* Add buttons on main menu
+
+## REQUIREMENTS
+- [Sonic 1 Forever](https://teamforeveronline.wixsite.com/home/sonic-1-forever) (Easy Setup / Android / Switch)
+- All your mods disabled, this one doesn't support other mods
+
+## CREDITS
+* Sotaknuck: [3D in 2D Sprites](https://gamebanana.com/mods/54262)
+* Rosa: S1Expanded sprites. (Spriters Resource link got deleted)
+
+## CONTACT ME!
+Are my project in trouble? Here some links:
+* [Discord (@sunkydunky31)](https://discordapp.com/users/525334699069931521) (Faster way)

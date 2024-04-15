@@ -1,0 +1,171 @@
+private alias object.value4 : text.drawline
+private alias object.value5 : text.xpos
+private alias object.value6 : text.ypos
+private alias object.value11 : text.align
+private alias object.value34 : buttonoffset
+
+private alias 0 : TEXT_LEFT_ALIGN
+private alias 1 : TEXT_RIGHT_ALIGN
+private alias 2 : TEXT_CENTER_ALIGN
+private alias 0 : HEADER_TEXT_GREY
+private alias 1 : HEADER_TEXT_BLUE
+private alias 2 : HEADER_TEXT_GOLD
+private alias 90 : text.margin
+private alias 50 : text.margin.right
+private alias 64 : at.sym
+
+private value button.textlen = 0;
+private value button.textc = 0;
+private value button.textpos = 0;
+private value button.textbrk = 0;
+private value button.drawx = 0;
+
+reserve function buttons.text
+reserve function buttons.center
+reserve function UsualButtons
+
+
+function buttons.text
+	switch text.align
+		case 0 //left
+			GetTextInfo(button.textlen, 1, TEXTINFO_TEXTSIZE, text.drawline, 0)
+			button.textpos = 0
+			button.drawx = text.xpos
+			while button.textpos < button.textlen
+				GetTextInfo(button.textc, 1, TEXTINFO_TEXTDATA, text.drawline, button.textpos)
+				if button.textc == at.sym
+					button.drawx = text.xpos
+					text.ypos += 8
+				else
+					DrawSpriteScreenXY(button.textc, button.drawx, text.ypos)
+					button.drawx += 8
+				end if
+				button.textpos++
+			loop
+			break
+		case 1 //right
+			GetTextInfo(button.textlen, 1, TEXTINFO_TEXTSIZE, text.drawline, 0)
+			button.textpos = button.textlen
+			button.drawx = text.xpos
+			while button.textpos > 0
+				button.textpos--
+				GetTextInfo(button.textc, 1, TEXTINFO_TEXTDATA, text.drawline, button.textpos)
+				if button.textc == at.sym
+					button.drawx = text.xpos
+					text.ypos += 8
+				else
+					button.drawx -= 8
+					DrawSpriteScreenXY(button.textc, button.drawx, text.ypos)
+				end if
+			loop
+			break
+	end switch
+end function
+
+function UsualButtons
+		CheckEqual(saved.mobile, 0)
+		temp0 &= checkResult
+		if temp0 == 0
+			if buttonoffset < 104
+				buttonoffset += 8
+			end if
+			if buttonoffset >= 104
+				buttonoffset = 104
+			end if
+        end if
+        temp0 = screen.xsize
+		temp0 -= buttonoffset
+
+		temp1 = screen.ysize
+		temp1 -= 220
+
+		text.align = 0
+		text.drawline = 195
+
+	    DrawSpriteScreenXY(3, temp0, temp1)
+		DrawSpriteScreenXY(2, temp0, temp1)
+		CallFunction(buttons.text)
+end function
+
+event ObjectDraw
+	CallFunction(UsualButtons)
+end event
+
+event ObjectStartup	
+	LoadSpriteSheet("Menus/Buttons.gif")
+
+	switch saved.ControlStyle //Commom
+		case 1 //Xbox
+			SpriteFrame(0, 0, 16, 16, 1, 18) //0 A
+			SpriteFrame(0, 0, 16, 16, 18, 18) //1 B
+			SpriteFrame(0, 0, 16, 16, 35, 18) //2 X
+			SpriteFrame(0, 0, 16, 16, 52, 18) //3 Y
+			break
+		case 2 //Switch
+			SpriteFrame(0, 0, 16, 16, 1, 52) //0 A
+			SpriteFrame(0, 0, 16, 16, 18, 52) //1 B
+			SpriteFrame(0, 0, 16, 16, 35, 52) //2 X
+			SpriteFrame(0, 0, 16, 16, 52, 52) //3 Y
+			break
+		case 3 //PlayStation
+			SpriteFrame(0, 0, 16, 16, 1, 35) //0 Cross
+			SpriteFrame(0, 0, 16, 16, 18, 35) //1 Circle
+			SpriteFrame(0, 0, 16, 16, 35, 35) //2 Square
+			SpriteFrame(0, 0, 16, 16, 52, 35) //3 Triangle
+			break
+		case 4 //PS4
+			SpriteFrame(0, 0, 16, 16, 1, 35) //0 Cross
+			SpriteFrame(0, 0, 16, 16, 18, 35) //1 Circle
+			SpriteFrame(0, 0, 16, 16, 35, 35) //2 Square
+			SpriteFrame(0, 0, 16, 16, 52, 35) //3 Triangle
+			break
+		default //Genesis/Game UI
+			SpriteFrame(0, 0, 16, 16, 1, 1) //0 A
+			SpriteFrame(0, 0, 16, 16, 18, 1) //1 B
+			SpriteFrame(0, 0, 16, 16, 35, 1) //2 X
+			SpriteFrame(0, 0, 16, 16, 52, 1) //3 Y
+			break
+	end switch
+
+    switch saved.ControlStyle //D-pad
+		case 1 //Xbox
+			SpriteFrame(0, 0, 16, 16,  1, 18) //230 Left
+			SpriteFrame(0, 0, 16, 16, 18, 18) //231 Right
+			SpriteFrame(0, 0, 16, 16, 35, 18) //232 Up
+			SpriteFrame(0, 0, 16, 16, 52, 18) //233 Down
+			break
+		case 2 //Switch
+			SpriteFrame(0, 0, 16, 16,  1, 52) //230 Left Switch
+			SpriteFrame(0, 0, 16, 16, 18, 52) //231 Right Switch
+			SpriteFrame(0, 0, 16, 16, 35, 52) //232 Up Switch
+			SpriteFrame(0, 0, 16, 16, 52, 52) //233 Down Switch
+			break
+		case 3 //PlayStation
+			SpriteFrame(0, 0, 16, 16, 150, 35) //230 Left
+			SpriteFrame(0, 0, 16, 16, 167, 35) //231 Right
+			SpriteFrame(0, 0, 16, 16, 184, 35) //232 Up
+			SpriteFrame(0, 0, 16, 16, 201, 35) //233 Down
+			break
+		case 4 //PS4
+			SpriteFrame(0, 0, 16, 16, 150, 35) //230 Left
+			SpriteFrame(0, 0, 16, 16, 167, 35) //231 Right
+			SpriteFrame(0, 0, 16, 16, 184, 35) //232 Up
+			SpriteFrame(0, 0, 16, 16, 201, 35) //233 Down
+			break
+		default //Genesis, Game UI
+			SpriteFrame(0, 0, 16, 16,  1, 1) //230 Left
+			SpriteFrame(0, 0, 16, 16, 18, 1) //231 Right
+			SpriteFrame(0, 0, 16, 16, 35, 1) //232 Up
+			SpriteFrame(0, 0, 16, 16, 52, 1) //233 Downn
+			break
+	end switch
+end event
+
+event RSDKDraw
+	DrawSprite(0)
+end event
+
+event RSDKLoad
+	LoadSpriteSheet("Global/Display.gif")
+	SpriteFrame(-16, -16, 32, 32, 1, 143)
+end event

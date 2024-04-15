@@ -1,0 +1,196 @@
+Sonic the Hedgehog Forever
+VERSION NUMBER VERSION NUMBER VERSION NUMBER
+SELECAO DE SAVES
+MODOS DE JOGO
+CONTRA TEMPO
+Corra ate o fim@e teste a si mesmo!@Escolha cada zona@e tente superar@seus melhores tempos.
+MODO ARCADE
+Pontos altos e a@unica maneira de@determinar o quao@bom voce e em@Video Games!
+GOLFE FOREVER
+Nove buracos nos@gramados exuberantes@da Green Hill Zone.
+OPCOES
+Desligado
+Ligado
+TELA
+Tela Cheia
+Proporcao da Tela
+4 : 3
+16 : 9
+Inutilisado
+Escala da Janela
+Modo Grafico
+Mobile
+Emulado
+Console
+JOGABILIDADE
+Esmeraldas do Caos
+Rotacao do Special Stage
+Fluida
+Original
+Monitores Aleatorios
+Vidas Infinitas
+Limite de Tempo
+3 Minutos
+10 Minutos
+Limite de Velocidade Terrena
+Limite de Velocidade Aerea
+Bloqueio de Movimento Vertical
+Bug dos Espinhos
+HABILIDADES
+Escudos Elementais
+Spindash
+Sonic 2
+Sonic CD
+Escudo Instantaneo
+Super Peel Out
+Dropdash
+Escudo de Bolha
+Mania
+Sonic 3
+Cancelamento do Voo
+Cancelamento do Super
+Hiper Habilidades
+VISUAIS
+Rotacao em Molas (CD)
+Rotacao do Mania
+Velocidade Maxima do Sonic
+Prototipo S2
+Peel out
+Tipo de Escudo
+Sonic 1
+Tipo de Invencibilidade
+Temporizador
+0'00''00
+0 : 00
+Regiao
+MILES (JP)
+TAILS (US)
+Agua da Green Hill
+Tela de Titulo
+Forever
+Ufos na Marble Zone
+Prototipo
+SOM
+Volume da Musica
+Volume dos Efeitos Sonoros
+Musica de Afogamento
+Sonic CD
+Tema do Super
+Acelerado
+S&K
+Prototipo S3
+Invencibilidade
+EXTRAS
+Bloqueado
+Desafio@Caotico
+Criador@Especial
+Vs Chefe
+NULO
+NULO
+MODS
+LISTA DE MODS
+SAIR
+Seis
+Sete
+Processamento Explosivo
+Rei dos Aneis
+Acrobacias com os Aneis
+Segredo da Marble Zone
+Quebra-Blocos
+Corrida no Telhado
+Conhecedor do Caos
+Segredo da Labyrinth Zone
+Perseguicao sem Falha
+Fora de Servico
+Apenas Bombas
+Transportador Escondido
+Protecao Ocular
+Um para a Estrada
+Venca o Relogio
+Termine Green Hill Zone@Ato 1 em menos de 30@Segundos
+Colete 200 Aneis@em um ato
+Sem tocar no chao, co-@lete todos os aneis em@uma formacao com a rampa@na Green Hill Zone Ato 1
+Percorra atraves de @uma sala secreta na @Marble Zone Ato 3
+Na Marble Zone Ato 2@quebre 16 blocos em uma@sequencia sem parar
+Termine Spring Yard Zone @Ato 2 na rota mais alta
+Colete as seis@Esmeraldas do Caos
+Ative e ande na pla-@taforma escondida na@Labyrinth Zone Ato 1
+Derrote o chefe na@Labyrinth Zone sem@levar dano
+Encontre o Poste de@Iluminacao quebrado@na Star Light Zone
+Derrote o chefe na Star@Light Zone usando apenas@as bombas das gangorras
+Colete 50 Aneis e@leve carona no caminho @com o Transportador @Escondido na Scrap Brain@Zone Ato 2
+Leve seus oculos de @natacao com voce @para a Zona Final
+Como presente de parti-@da, acerte um dano final@no EggMovel do Dr. Eggman
+Complete o modo "Contra@Tempo" em menos de 30@Minutos com Sonic
+CONQUISTAS
+ Corrente
+    Atual
+   Melhor
+EM BREVE
+Esse modo nao@esta disponivel ainda.
+Idioma
+Portugues (BR)
+Sincronizacao Vertical
+Modo de Escala
+Mais Proximo
+Integral
+Bilinear Agudo
+Bilinear
+Visibilidade dos Botoes
+25%
+50%
+75%
+100%
+0%
+DADOS DO JOGO
+Deletar todos os dados do Jogo
+Deletando...
+Deletado
+Deletar dados dos Saves
+Deletar recors. do Contra Tempo
+Deletar recordes do Modo Arcade
+Deletar recordes do Golfe Forever
+Deletar recordes dos Extras
+Deletar dados das Conquistas
+Deletar dados dos Segredos
+Segure "A"
+Velocidade Maxima do Tails
+Velocidade Maxima do Knuckles
+Velocidade Maxima da Amy
+Chaotix
+Velocidade Max. do Super Sonic
+Creditos@do Time
+Movimentos da Amy
+EsqueAdvance
+Escadaria para o Ceu
+Caminho da Morte
+Chegue aos Pontos
+Monitores Maravilhosos
+NULO
+Use todas as plataformas@voadoras na Star Light Zone
+Percorra atraves de @uma passagem secreta na @Spring Yard Zone Ato 2
+Complete o Modo Arcade@com um placar de @400,000 Pontos ou mais
+Encontre a area secreta@na Green Hill Zone Ato 3
+NULO
+S2 Absoluto
+Restaurar opcoes ao Padrao
+MODS
+Animacoes do Sonic
+Musica do Hiper
+SegaSonic
+Worlds/3D2D
+S1 Expandido
+Controles
+XBOX
+Switch
+PlayStation
+PS4
+
+
+//======================== CONTROLS INFO ========================//
+Aceitar
+Voltar
+Mover
+
+//testing string
+OLA MUNDO!
