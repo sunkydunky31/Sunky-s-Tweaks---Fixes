@@ -1,14 +1,18 @@
 # Sunky's Tweaks and Fixes
 
 ## GENERAL INFORMATION
-GUIDE: [Tweaks](#tweaks), [Fixes](#fixes), [New](#new), [Requirements](#requirements)
+GUIDE: [Tweaks, Fixes & Additions](#tweaks--fixes--aditions), [New](#new), [Requirements](#requirements)
 
 This is a mod for Sonic 1 Forever, fixing and adding some things to the game
 THAT MOD WAS MADE IN 2021, BEFORE [S1F TWEAKS!](https://gamebanana.com/wips/83824), I DON'T HAVE COPIED [TURNIP STUDIOS](https://gamebanana.com/members/2625345)
 
-## TWEAKS // FIXES
+## TWEAKS // FIXES // ADITIONS
 * Added the unused sprites of Save Select
 * The Brazialian translation are now fixed
+* Golf Menu translation (PT-BR) are now fixed
+* Added new input icons to the HUD! (Seems like S3AIR, sorry Euka)
+* Save Select has new mod options
+* ~~This one is a secret! I won't tell you what is it~~
 
 ## TODOS
 * Add buttons on main menu
