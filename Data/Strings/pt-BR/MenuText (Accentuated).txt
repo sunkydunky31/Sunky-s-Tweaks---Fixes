@@ -41,13 +41,13 @@ Escudos Elementais
 Spindash
 Sonic 2
 Sonic CD
-Escudo Instantaneo
+Escudo Instantâneo
 Super Peel Out
 Dropdash
 Escudo de Bolha
 Mania
 Sonic 3
-Cancelamento do Vôo
+Cancelamento do Voo
 Cancelamento do Super
 Híper Habilidades
 VISUAIS
@@ -173,7 +173,7 @@ Complete o Modo Arcade@com um placar de @400,000 Pontos ou mais
 Encontre a área secreta@na Green Hill Zone Ato 3
 NULO
 S2 Absoluto
-Restaurar opções ao Padro
+Restaurar opções ao Padrão
 MODS
 Animações do Mania
 Tema do Hyper
