@@ -127,7 +127,7 @@ CONQUISTAS
     Atual
    Melhor
 EM BREVE
-Esse modo não@esta disponivel ainda.
+Esse modo não@está disponivel ainda.
 Idioma
 Português (BR)
 Sincronizção Vertical
@@ -173,7 +173,7 @@ Complete o Modo Arcade@com um placar de @400,000 Pontos ou mais
 Encontre a área secreta@na Green Hill Zone Ato 3
 NULO
 S2 Absoluto
-Restaurar opções ao Padrão
+Restáurar opções ao Padrão
 MODS
 Animações do Mania
 Tema do Hyper
