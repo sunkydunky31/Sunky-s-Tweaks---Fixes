@@ -1,4 +1,4 @@
-# Sunky's Tweaks and Fixes
+# Sunky's Tweaks & Fixes
 
 ## GENERAL INFORMATION
 GUIDE: [Tweaks, Fixes & Additions](#tweaks--fixes--aditions), [New](#new), [Requirements](#requirements)
